@@ -1,0 +1,25 @@
+@media screen and (max-width:1400px) {
+    .op-group-2 ul.options-2{
+        left: -90%;
+        right: 90%;
+    }
+}
+@media (max-width: 992px){
+    .op-group-2 ul.options-2{
+        top: 100%;
+        left: 0;
+        right: 0;
+        transform: translateX(0);
+        transform: translateY(50%);
+    }
+    .fix-width{
+        width: 100%;
+    }
+
+}
+@media (max-width: 576px){
+    .fix-width{
+        width: unset;
+        margin-top: 20px;
+    }
+}
