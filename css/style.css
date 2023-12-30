@@ -20,6 +20,8 @@ header{
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+    z-index: 99999999;
 }
 .header-content h1{
     font-size: 5rem;
